@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        string paragraph = "Paranoids are not paranoid because they are paranoid but beacuse they keep puting themselves delibertely into paranoid avoidablesituation";
+        string paragraph = "Paranoids are not paranoid because they are paranoid but beacuse they keep puting themselves delibertely into paranoid avoidable situation";
         //string paragraph = "To be or not to be";
         CountNumbOfOccurence(paragraph);
         Console.ReadLine();
@@ -24,6 +24,10 @@ internal class Program
         }
         Console.WriteLine("Displaying after add operation");
         hashTabe.Display();
-        
+        string s = "avoidable";
+        hashTabe.Remove(s);
+        Console.WriteLine("After removed an item {0}", s);
+        hashTabe.Display();
+
     }
 }
