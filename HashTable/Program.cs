@@ -4,8 +4,8 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Welcome to Hash Table");
-        string paragraph = "To be or not to be";
+        string paragraph = "Paranoids are not paranoid because they are paranoid but beacuse they keep puting themselves delibertely into paranoid avoidablesituation";
+        //string paragraph = "To be or not to be";
         CountNumbOfOccurence(paragraph);
         Console.ReadLine();
     }
